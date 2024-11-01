@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daftar Hadir Ekstra Pramuka SMKN 1 BAGOR</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <h1>Daftar Hadir Ekstra Pramuka SMKN 1 BAGOR</h1>
+  <h2>Tambahkan Nama Siswa yang Hadir</h2>
+
+  <form id="attendanceForm">
+    <label for="name">Nama:</label>
+    <input type="text" id="name" placeholder="Masukkan nama siswa" required>
+    <label for="date">Tanggal:</label>
+    <input type="date" id="date" required>
+    <label for="day">Hari:</label>
+    <input type="text" id="day" placeholder="Masukkan hari" required>
+    <button type="submit">Tambah</button>
+  </form>
+
+  <table id="attendanceTable">
+    <thead>
+      <tr>
+        <th>Nama</th>
+        <th>Tanggal</th>
+        <th>Hari</th>
+        <th>Aksi</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+  <script src="script.js"></script>
+</body>
+</html>
